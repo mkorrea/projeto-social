@@ -31,13 +31,12 @@ section#celular {
     width: 311px;
     height: 627px;
 }
-div.tela {
-}
+
 iframe {
     position: absolute;
- 
+    width: 270px;
     height: 470px;
-
+    
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -53,12 +52,16 @@ iframe {
 .icone {
     width: 45px;
     border-radius: 50%;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.505);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.505);
+    box-sizing: border-box;
 }
 
 .icone:hover {
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.637);
     transform: scale(103%);
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.505);
     transition-duration: .5s;
+
 }
 
